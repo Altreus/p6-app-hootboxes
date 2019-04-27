@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 8rem;
+}
+
+.reward {
+  background-color: #F4F5CA;
+  border: 2px solid #82840B;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.reward.too-expensive {
+  background-color: #F5D7CB;
+  border-color: #842E0B;
+}
+
+.reward.used {
+  background-color: #DFC3CC;
+  border-color: #AA838F;
+  color: #858585;
+}
