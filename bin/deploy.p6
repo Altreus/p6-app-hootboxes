@@ -4,4 +4,8 @@ use App::Hootboxes::Schema;
 
 my $*RED-DB = database "SQLite", :database<./hootboxes.db>;
 
-deploy;
+
+Reward.^create-table;
+Student.^create-table;
+Claim.^create-table;
+Hootbox.^create-table;
